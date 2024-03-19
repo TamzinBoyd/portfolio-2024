@@ -18,7 +18,7 @@ const ContentSection = ({
 	return (
 		<section className={`content-section relative ${marginBottom}`}>
 			<div className='md:container md:mx-auto relative flex items-baseline top-2 md:top-[13px]'>
-				<h3 className='text-secondary font-bold text-5xl md:text-7xl uppercase mr-2 ml-4 md:ml-0'>
+				<h3 className='text-secondary font-bold text-4xl md:text-7xl uppercase mr-2 ml-4 md:ml-0'>
 					{heading}
 				</h3>
 				<Dot size={width > breakpoint ? "medium" : "small"} />
