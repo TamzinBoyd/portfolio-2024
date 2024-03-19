@@ -10,7 +10,7 @@ const TemplatePage = ({ children }) => {
 	if (width === undefined) {
 		width = 802;
 	}
-	console.log(width, 'width');
+
 	return (
 		<div className="relative">
 			{width > breakpoint ? <Header /> : <MobileMenu />}

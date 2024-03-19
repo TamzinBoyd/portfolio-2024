@@ -19,8 +19,6 @@ const ProjectCard = ({ index, data }) => {
 			: `${direction} opacity-0`;
 	}
 
-	console.log(data, ' data');
-
 	return (
 		<div
 			ref={ref}
