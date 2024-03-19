@@ -9,3 +9,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@layer components {
+  p {
+      @apply md:text-lg mb-4 font-light text-secondary;
+  }
+
+  .highlight {
+      @apply text-accent font-bold;
+  }
+}

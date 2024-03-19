@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Punk API",
+        "image": "/punkapi.png",
+        "altText": "Image of Punk Api project",
+        "tech": "React JS (useState, useEffect, Router), rest API",
+        "description": "This React JS project makes a request to a public API and allows users to search and filter the returned data. For each beer a card is rendered. useState is used to store the API results.",
+        "video": "",
+        "github": "https://github.com/TamzinBoyd/punkAPI",
+        "deployed": ""
+    },
+    {
+        "name": "Client Project",
+        "image": "/clientProject.png",
+        "altText": "Image of Client Recipe project",
+        "tech": "React JS (useState, Router, useForm, Firestore)",
+        "description": "Client React JS site where I was asked to create a staged form for the user to enter a recipe. This included image upload, form validation and a preview screen. On validation the data gets submitted to Firestore. As the project was already underway this was a great opportunity to read and understand an existing code base. We were given designs in Figma and tickets allocated in Trello. We used GitHub for source control and pull requests. This gave me understanding of Agile working.",
+        "video": "",
+        "github": "",
+        "deployed": ""
+    },
+    {
+        "name": "Snake Memory Game",
+        "image": "/snakeGame.png",
+        "altText": "Image of Snake Memory Game",
+        "tech": "HTML, CSS, Javscript",
+        "description": "This was my first main project on the course, I was given the brief to create an interactive game utilising vanilla Javascript. I created a memory game full of colourful characters. The user has 2 minutes to find all 6 snakes.",
+        "video": "",
+        "github": "https://github.com/TamzinBoyd/Memory-Game",
+        "deployed": "https://tamzinboyd.github.io/Memory-Game/"
+    },
+    {
+        "name": "Morse Code Translator",
+        "image": "/morseCode.png",
+        "altText": "Image of Morse Code Translator",
+        "tech": "HTML, CSS, OOP Javascript",
+        "description": "Created a morse code translator using OOP, designed mobile first. This was a challenging task, I had to consider the morse to English input would be different as each 'letter' contained multiple characters.",
+        "video": "",
+        "github": "https://github.com/TamzinBoyd/Morse-Code-Translator",
+        "deployed": "https://tamzinboyd.github.io/Morse-Code-Translator/"
+    },
+    {
+        "name": "Alien Game",
+        "image": "/alienGame.png",
+        "altText": "Image of Alien Game",
+        "tech": "HTML, CSS, OOP Javascript",
+        "description": "Created a text based, basic shooting game within 150 lines of code in OOP. In this game the aim was to have several ships with set points. On button click a random ship is 'shot' and points deducted. Once a ship is sunk it has a hidden class applied to it. Game over is triggered when the mother ship or all ships reach 0 points.",
+        "video": "",
+        "github": "https://github.com/TamzinBoyd/AlienInvaders",
+        "deployed": "https://tamzinboyd.github.io/AlienInvaders/"
+    },
+    {
+        "name": "Pokemon Generator",
+        "image": "/pokedex.png",
+        "altText": "Image of Pokemon Generator",
+        "tech": "HTML, CSS, Javascript, API fetch",
+        "description": "Personal project to generate a random Pokemon. Having learnt about API fetch requests I wanted to utilise these skills to access the public Pokemon API. This meant reading the documentation to determine how to access the data. On each click an API fetch is made which returns a random Pokemon and their key statistics.",
+        "video": "",
+        "github": "https://github.com/TamzinBoyd/Pokedex",
+        "deployed": "https://tamzinboyd.github.io/Pokedex/"
+    },
+    {
+        "name": "Calculator",
+        "image": "/calculator.png",
+        "altText": "Image of Calculator",
+        "tech": "HTML, CSS, Javascript",
+        "description": "Create a functional calculator. I decided to store the numbers in an array which I looped over to add event listeners. On the click of a button the number is stored and displayed to the user. Using substring I was able to break down the user's input, calculate the sum and return a total value.",
+        "video": "",
+        "github": "https://github.com/TamzinBoyd/Calculator",
+        "deployed": "https://tamzinboyd.github.io/Calculator/"
+    },
+    {
+        "name": "Hangman",
+        "image": "/hangman.png",
+        "altText": "Image of Hangman Game",
+        "tech": "HTML, CSS, Javascript",
+        "description": "A fun Personal project to replicate the popular Hangman game and practise my Javascript skills. I used CSS to generate the drawn lines when the user guesses incorrectly. I generated an array of '_' to represent the random word, a for loop to access the 2 arrays and used a hidden score to track the user's progress. Game is won when the array no longer contains any '_'.",
+        "video": "",
+        "github": "https://google.com",
+        "deployed": "https://tamzinboyd.github.io/Hangman/"
+    }
+]

@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Projects from "./pages/Projects";
-import About from "./pages/About";
-import Experience from "./pages/Experience";
+import Home from "../src/pages/Home";
+import Projects from "../src/pages/Projects";
+import About from "../src/pages/About";
+import Experience from "../src/pages/Experience";
 
 const App = () => {
 	return (
@@ -16,19 +16,3 @@ const App = () => {
 };
 
 export default App;
-
-{
-	/* <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/blogs">Blogs</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
-      </nav> */
-}
