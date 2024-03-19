@@ -151,8 +151,7 @@ const Experience = () => {
 					Proficient in programming responsive, accessible, and
 					functional websites, I bring a naturally organised approach
 					and an eye for detail, to produce quality, DRY code. I like
-					to learn new languages, I've dabbled with Next JS to create
-					this portfolio.
+					to learn new languages, I'm currently learning Next JS.
 				</p>
 				<p>
 					Now, I{" "}
