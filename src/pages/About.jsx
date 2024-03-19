@@ -51,14 +51,14 @@ const About = () => {
 					</p>
 					<p className='text-center font-bold'>tamzin_boyd@hotmail.co.uk</p>
 					<span className='flex justify-center items-center gap-4 mt-4'>
-						<div className='w-12 h-12 rounded-full bg-accent flex justify-center items-center'>
+						{/* <div className='w-12 h-12 rounded-full bg-accent flex justify-center items-center'>
 							<ContactLink
 								href='mailto:tamzin_boyd@hotmail.co.uk'
 								ariaLabel='Email Tamzin'
 							>
 								<Email hover='hover:fill-primary' />
 							</ContactLink>{" "}
-						</div>
+						</div> */}
 
 						<a
 							href='/TamzinBoydCV.pdf'

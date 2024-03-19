@@ -29,12 +29,21 @@ const Footer = () => {
 				>
 					<LinkedInIcon />
 				</ContactLink>
-				<ContactLink
+				{width < breakpoint && (
+					<Link
+						to='/about'
+						aria-label='link to about page'
+						className='text-secondary text-lg hover:text-accent uppercase m-0 2xl:text-5xl'
+					>
+						Contact
+					</Link>
+				)}
+				{/* <ContactLink
 					href='mailto:tamzin_boyd@hotmail.co.uk'
 					ariaLabel='Email Tamzin'
 				>
 					<Email />
-				</ContactLink>
+				</ContactLink> */}
 				<ContactLink
 					href='https://github.com/TamzinBoyd'
 					ariaLabel="View Tamzin's Github Profile"
