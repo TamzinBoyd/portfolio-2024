@@ -33,8 +33,7 @@ const Projects = () => {
 						In my current role I've coded components and pages
 						for e-commerce sites, including headers, mobile
 						menus, widgets and more. Seeking a new challenge I recently delved into
-						Next.js, devealoping this portfolio with its App Router
-						and server-side rendering capabilities.
+						learning Next.js.
 					</p>
 				</div>
 			</ContentSection>
