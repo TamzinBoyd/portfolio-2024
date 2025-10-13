@@ -18,8 +18,8 @@ const Footer = () => {
 	return (
 		<footer className='footer fixed bottom-0 flex flex-col-reverse gap-2 md:grid items-center py-2 px-8 bg-primary text-secondary 2xl:py-8'>
 			<aside className='items-center flex md:grid-flow-col'>
-				<p className='text-xs m-0 2xl:text-xl'>
-					Copyright © {currentYear} - All right reserved
+				<p className='text-xs m-0'>
+					Copyright © {currentYear} - All rights reserved
 				</p>
 			</aside>
 			<div className='flex items-center md:grid-flow-col md:gap-4 md:place-self-center md:justify-self-end 2xl:gap-8'>
@@ -29,37 +29,18 @@ const Footer = () => {
 				>
 					<LinkedInIcon />
 				</ContactLink>
-				{width < breakpoint && (
-					<Link
-						to='/about'
-						aria-label='link to about page'
-						className='text-secondary text-lg hover:text-accent uppercase m-0 2xl:text-5xl'
-					>
-						Contact
-					</Link>
-				)}
-				{/* <ContactLink
+				<ContactLink
 					href='mailto:tamzin_boyd@hotmail.co.uk'
 					ariaLabel='Email Tamzin'
 				>
 					<Email />
-				</ContactLink> */}
+				</ContactLink>
 				<ContactLink
 					href='https://github.com/TamzinBoyd'
 					ariaLabel="View Tamzin's Github Profile"
 				>
 					<Github />
 				</ContactLink>
-
-				{width > breakpoint && (
-					<Link
-						to='/about'
-						aria-label='link to about page'
-						className='text-secondary text-lg hover:text-accent uppercase m-0 2xl:text-5xl'
-					>
-						Contact
-					</Link>
-				)}
 			</div>
 		</footer>
 	);

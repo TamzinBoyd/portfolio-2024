@@ -7,28 +7,28 @@ const Header = () => {
 				<Link
 					to='/'
 					aria-label='link to homepage'
-					className='text-secondary text-lg hover:text-accent uppercase m-0 2xl:text-5xl'
+					className='text-secondary text-lg hover:text-accent uppercase m-0'
 				>
 					Home
 				</Link>
 				<Link
 					to='/projects'
 					aria-label='link to projects page'
-					className='text-secondary text-lg hover:text-accent uppercase m-0 2xl:text-5xl'
+					className='text-secondary text-lg hover:text-accent uppercase m-0'
 				>
 					Projects
 				</Link>
 				<Link
 					to='/experience'
 					aria-label='link to experience page'
-					className='text-secondary text-lg hover:text-accent uppercase m-0 2xl:text-5xl'
+					className='text-secondary text-lg hover:text-accent uppercase m-0'
 				>
 					Experience
 				</Link>
 				<Link
 					to='/about'
 					aria-label='link to about page'
-					className='text-secondary text-lg hover:text-accent uppercase m-0 2xl:text-5xl'
+					className='text-secondary text-lg hover:text-accent uppercase m-0'
 				>
 					About
 				</Link>

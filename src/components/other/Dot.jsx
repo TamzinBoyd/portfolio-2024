@@ -3,7 +3,7 @@ const Dot = ({
 }) => {
 	return (
 		<div
-			className={`dot rounded-full bg-accent ${
+			className={`dot rounded-full bg-accent animate-dampedBounce ${
 				size === "small"
 					? "w-4 h-4"
 					: size === "medium"

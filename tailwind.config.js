@@ -13,6 +13,23 @@ module.exports = {
 					sans: ["Roboto", "sans-serif"],
 				},
 			},
+			keyframes: {
+				dampedBounce: {
+					"0%": { transform: "translateY(0)" },
+					"15%": { transform: "translateY(-50%)" },
+					"30%": { transform: "translateY(0)" },
+					"45%": { transform: "translateY(-25%)" },
+					"60%": { transform: "translateY(0)" },
+					"72%": { transform: "translateY(-12%)" },
+					"82%": { transform: "translateY(0)" },
+					"90%": { transform: "translateY(-6%)" },
+					"96%": { transform: "translateY(0)" },
+					"100%": { transform: "translateY(-2%)" },
+				},
+			},
+			animation: {
+				dampedBounce: "dampedBounce 1s ease-out",
+			},
 		},
 	},
 	daisyui: {
