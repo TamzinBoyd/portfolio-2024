@@ -74,9 +74,9 @@
         "image": "/hangman.png",
         "altText": "Image of Hangman Game",
         "tech": "HTML, CSS, Javascript",
-        "description": "A fun Personal project to replicate the popular Hangman game and practise my Javascript skills. I used CSS to generate the drawn lines when the user guesses incorrectly. I generated an array of '_' to represent the random word, a for loop to access the 2 arrays and used a hidden score to track the user's progress. Game is won when the array no longer contains any '_'.",
+        "description": "A personal project recreating the classic Hangman game to strengthen my JavaScript skills. The game logic uses arrays and loops to track player guesses, with a hidden score system to monitor progress. CSS dynamically renders the hangman drawing with each incorrect guess, and the game is won once all letters are revealed. Why not have a quick play?",
         "video": "",
-        "github": "https://google.com",
+        "github": "https://github.com/TamzinBoyd/Hangman",
         "deployed": "https://tamzinboyd.github.io/Hangman/"
     }
 ]

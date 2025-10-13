@@ -24,16 +24,11 @@ const Projects = () => {
 			<ContentSection background='bg-primary' heading='Projects'>
 				<div className='w-full md:w-96 lg:w-[45%]'>
 					<p>
-						During my Nology Software Development Course I tackled
-						a series of challenges. These projects refined my
-						problem-solving skills, breaking tasks into manageable
-						segments and approaching them methodically.
+						During my time on the Nology Software Development course, I tackled a range of challenges and projects that sharpened my problem-solving abilities. I broke down complex tasks into manageable segments and approached each one with a methodical mindset, ensuring clarity and efficiency throughout
 					</p>
 					<p>
-						In my current role I've coded components and pages
-						for e-commerce sites, including headers, mobile
-						menus, widgets and more. Seeking a new challenge I recently delved into
-						learning Next.js.
+						While working with an e-commerce agency, I contributed to the development of dynamic components and pages for online stores. This included crafting responsive headers, mobile-friendly menus, interactive widgets, and other essential UI elements that enhanced user experience and functionality.
+
 					</p>
 				</div>
 			</ContentSection>
