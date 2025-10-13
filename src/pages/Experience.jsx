@@ -29,30 +29,24 @@ const Experience = () => {
 					<div className='md:grid md:grid-cols-5 gap-12'>
 						<div className='relative col-start-1 col-end-3 flex justify-center mb-12 md:mb-0'>
 							<Quotes classes='lg:top-[20%]' />
-							<h6 className='flex flex-col justify-center  text-2xl font-bold text-center max-w-[210px] md:max-w-none'>
-								Front-end{" "}
+							<h6 className='flex flex-col justify-center text-2xl font-bold text-center max-w-[20px] md:max-w-none'>
+								Front-end web developer{" "}
 								<span className='text-accent'>
-									Web Developer{" "}
+									with industry experience
 								</span>
-								with 1.5 years{" "}
-								<span className='text-accent'>
-									industry experience
-								</span>
+									in a fast paced e-commerce agency
 							</h6>
 							<Quotes classes='rotate-180 lg:bottom-[20%]' />
 						</div>
 						<p className='col-start-3 col-end-6'>
-							My web development professional journey started with
-							5874, an innovative{" "}
-							<span className='highlight'>e-commerce</span>{" "}
-							agency, where my front-end coding skills contribute
+							My journey with 5874, an innovative e-commerce agency, allowed me to utilise my front-end coding skills to contribute
 							to crafting captivating digital storefronts.
 							Originating from a coding bootcamp, my dedication
 							over a year of self-paced learning solidified my
 							expertise in JavaScript and React. A{" "}
 							<span className='highlight'>versatile coder</span>,
-							I navigate seamlessly through technologies like
-							React, Handlebars and Javascript, while mastering
+							I navigated seamlessly through technologies like
+							React, Handlebars and JavaScript, while mastering
 							the art of styling with Sass and Tailwind. I bring
 							an innovative approach to front-end development,
 							coding digital experiences that seamlessly blend
@@ -62,13 +56,30 @@ const Experience = () => {
 				</div>
 			</ContentSection>
 
-			<ContentSection heading='Current' background='bg-primary'>
+	<ContentSection heading='Current' background='bg-primary'>
 				<p>
-					Since August 2022 I've been immersed in the world of web
+					I recently broadened my skill set into project
+					management, leading the roll out of a web-based market trading
+					app. This role enhanced my skills in stakeholder communication,
+					problem-solving, and project oversight, while giving me valuable
+					insight into digital projects from the {" "}
+					<span className='highlight'>
+						client's perspective.
+					</span>
+					In a dynamic role focused on delivering a market trading web app from initial scoping to launch, I collaborated with stakeholders, agencies, and internal teams to ensure timely delivery and brand consistency. I maintain clear communication with key stakeholders, manage expectations, and work closely with an agency to identify and resolve blockers.
+				</p>
+				<p>
+					As part of the Marketing team, I align digital output with brand standards and coordinate customer journeys and communications. My contributions included developing front-end React components, delivering demos and training materials, and supporting additional projects by analysing feedback to shape product roadmaps. Operating within an agile framework, I address bugs, implement changes, and deliver new features, utilising using tools such as Monday, Notion, and BugHerd.{" "}
+				</p>
+			</ContentSection>
+
+			<ContentSection heading='Past' background='bg-primary'>
+				<p>
+					From August 2022 to June 2024 I was immersed in the world of web
 					development at 5874. Beginning as a junior developer I
-					showcased my skills and my dedication earnt me a promotion
+					showcased my skills and my dedication earnt a promotion
 					within six months. In this fast-paced agency, I actively
-					contribute to the creation of a diverse range of e-commerce
+					contributed to the creation of a diverse range of e-commerce
 					sites, leaving my mark on{" "}
 					<span className='highlight'>
 						international client sites{" "}
@@ -90,30 +101,21 @@ const Experience = () => {
 				</p>
 
 				<p>
-					Recently I've been contributing to Loacker's site,
-					using Cornerstone Stencil base code and Handlebars for
-					content and custom widgets. Widgets are integrated into the
-					store via Postman, allowing users to drag and drop in the
-					Page Builder environment. Designs provided in{" "}
-					<span className='highlight'>Figma</span> are
-					coded into accessible, pixel-perfect components and pages.
-				</p>
-
-				<p>
-					My responsibilities include client services support by
+					I pride myself on making pixel-perfect components and responsive pages from designs provided in{" "}
+					<span className='highlight'>Figma</span>.
+					My responsibilities also included providing client services support by
 					addressing changes and bug fixes on existing sites. This
-					hones my
+					honed my
 					<span className='highlight'> problem-solving skills</span>,
 					allowing me to resolve issues promptly whilst communicating
 					effectively with project managers. Amid the programming
 					excitement, I diligently manage tasks like time tracking and
-					updating Jira tickets. Accustomed to adapting my working
-					style to project lead requirements, I actively participate
+					updating Jira tickets and I actively participated
 					in project stand-ups.
 				</p>
 			</ContentSection>
 
-			<ContentSection heading='Past'>
+			<ContentSection heading='Pre-development'>
 				<p>
 					In April 2021, I undertook the self-paced _Nology Software
 					Development bootcamp alongside my full-time job. Throughout,
@@ -150,15 +152,14 @@ const Experience = () => {
 					engaging with content through podcasts and videos.
 					Proficient in programming responsive, accessible, and
 					functional websites, I bring a naturally organised approach
-					and an eye for detail, to produce quality, DRY code. I like
-					to learn new languages, I'm currently learning Next JS.
+					and an eye for detail, to produce quality, DRY code.
 				</p>
 				<p>
 					Now, I{" "}
 					<span className='highlight'>
 						eagerly seek my next challenge
 					</span>
-					, grateful for the experiences that have shaped me. Thriving
+					, grateful for the experiences that have shaped me so far. Thriving
 					in a dynamic atmosphere, my primary focus lies in front-end
 					development, where I find fulfillment in witnessing the
 					visual outcomes of my dedication. My coding journey has been
