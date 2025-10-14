@@ -15,7 +15,7 @@ const Experience = () => {
 	return (
 		<TemplatePage>
 			<Blank />
-			<ContentSection heading='Experience'>
+			<ContentSection heading='Experience' index={1}>
 				<div className='flex flex-wrap gap-8 md:gap-14'>
 					<div className='experience-skills flex grow w-full justify-center md:justify-between flex-wrap gap-4 p-4 md:p-0'>
 						<Javascript />
@@ -56,7 +56,7 @@ const Experience = () => {
 				</div>
 			</ContentSection>
 
-	<ContentSection heading='Current' background='bg-primary'>
+			<ContentSection heading='Current' background='bg-primary' index={2}>
 				<p>
 					I recently broadened my skill set into project
 					management, leading the roll out of a web-based market trading
@@ -73,7 +73,7 @@ const Experience = () => {
 				</p>
 			</ContentSection>
 
-			<ContentSection heading='Past' background='bg-primary'>
+			<ContentSection heading='Past' index={3}>
 				<p>
 					From August 2022 to June 2024 I was immersed in the world of web
 					development at 5874. Beginning as a junior developer I
@@ -115,7 +115,7 @@ const Experience = () => {
 				</p>
 			</ContentSection>
 
-			<ContentSection heading='Pre-development'>
+			<ContentSection heading='Pre-development' background='bg-primary' index={4}>
 				<p>
 					In April 2021, I undertook the self-paced _Nology Software
 					Development bootcamp alongside my full-time job. Throughout,
@@ -146,7 +146,7 @@ const Experience = () => {
 				</p>
 			</ContentSection>
 
-			<ContentSection heading='Future' background='bg-primary'>
+			<ContentSection heading='Future' index={5}>
 				<p>
 					I'm committed to improving my web development skills,
 					engaging with content through podcasts and videos.
