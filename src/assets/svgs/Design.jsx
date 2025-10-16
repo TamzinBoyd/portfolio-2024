@@ -1,7 +1,7 @@
 export default function Design() {
 	return (
 		<svg
-			className="fill-accent h-10 w-10 md:h-12 md:w-12"
+			className="fill-accent h-10 w-10 md:h-12 md:w-12 transition-transform hover:animate-wiggle"
 			viewBox='0 0 36 36'
 			version='1.1'
 			preserveAspectRatio='xMidYMid meet'

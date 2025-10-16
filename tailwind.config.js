@@ -26,9 +26,14 @@ module.exports = {
 					"96%": { transform: "translateY(0)" },
 					"100%": { transform: "translateY(-2%)" },
 				},
+				 wiggle: {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'40%': { transform: 'translateY(-8px)' },
+				},
 			},
 			animation: {
 				dampedBounce: "dampedBounce 1s ease-out",
+				wiggle: 'wiggle 0.6s ease-in-out',
 			},
 		},
 	},

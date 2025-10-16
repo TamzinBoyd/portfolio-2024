@@ -5,7 +5,7 @@ export default function Brush() {
 			id='Layer_1'
 			xmlns='http://www.w3.org/2000/svg'
 			viewBox='0 0 512.723 512.723'
-            className="fill-accent h-10 w-10 md:h-12 md:w-12"
+            className="fill-accent h-10 w-10 md:h-12 md:w-12 transition-transform hover:animate-wiggle"
 		>
 			<g>
 				<g>

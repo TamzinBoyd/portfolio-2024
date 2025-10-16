@@ -1,7 +1,7 @@
 export default function Music() {
 	return (
 		<svg
-			className="h-10 w-10 md:h-12 md:w-12"
+			className="h-10 w-10 md:h-12 md:w-12 transition-transform hover:animate-wiggle"
 			viewBox='0 0 24 24'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
