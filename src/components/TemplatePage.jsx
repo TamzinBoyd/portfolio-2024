@@ -12,7 +12,7 @@ const TemplatePage = ({ children }) => {
 	}
 
 	return (
-		<div className="relative">
+		<div className="relative overflow-x-hidden">
 			{width > breakpoint ? <Header /> : <MobileMenu />}
 			<main>{children}</main>
 			<Footer />
