@@ -17,7 +17,7 @@ const AboutBanner = () => {
 	}
 
 	return (
-		<div className='about-banner bg-secondary relative overflow-visible left-1/2 w-screen transform -translate-x-1/2 flex flex-col items-center justify-center py-5'>
+		<div className='about-banner bg-secondary relative overflow-visible left-1/2 w-screen transform -translate-x-1/2 flex flex-col items-center md:justify-center py-5 mb-24'>
 			<div className='flex items-center justify-center gap-2 md:gap-4'>
 				<Design />
 				<Horse />
@@ -26,9 +26,6 @@ const AboutBanner = () => {
 				<Hiking />
 				<Music />
 			</div>
-			<p className='text-xl text-center text-primary font-normal mx-auto mt-4'>
-				If you think I could be a good fit for your team then I&apos;d love to hear from you!
-			</p>
 			<div id='contact'>
 				<span className='flex justify-center items-center gap-4 mt-4'>
 					<div className='w-12 h-12 rounded-full bg-accent flex justify-center items-center'>

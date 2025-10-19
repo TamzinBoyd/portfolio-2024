@@ -31,9 +31,12 @@ const About = () => {
 					communication and an innovative perspective in my approach
 					to problem-solving.
 				</p>
+				<p className='font-bold text-center mx-auto mb-0'>
+					If you think I could be a good fit for your team then I&apos;d love to hear from you!
+				</p>
 			</ContentSection>
 			<AboutBanner />
-			<Quiz />
+			{/* <Quiz /> */}
 		</TemplatePage>
   )
 }

@@ -3,12 +3,10 @@ import Github from "../../assets/svgs/Github";
 import Email from "../../assets/svgs/Email";
 import ContactLink from "./ContactLink";
 import usePageSizeCheck from "../../hooks/usePageSizeCheck";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
 	const currentDate = new Date();
 	const currentYear = currentDate.getFullYear();
-	const breakpoint = 801;
 	let { width } = usePageSizeCheck();
 
 	if (width === undefined) {
@@ -16,7 +14,7 @@ const Footer = () => {
 	}
 
 	return (
-		<footer className='footer fixed bottom-0 flex flex-col-reverse gap-2 md:grid items-center py-2 px-8 bg-primary text-secondary 2xl:py-8'>
+		<footer className='footer fixed bottom-0 flex flex-col-reverse gap-2 md:grid items-center py-2 px-8 bg-primary text-secondary'>
 			<aside className='items-center flex md:grid-flow-col'>
 				<p className='text-xs m-0'>
 					Copyright © {currentYear} - All rights reserved

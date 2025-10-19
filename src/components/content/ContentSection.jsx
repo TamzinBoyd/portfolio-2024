@@ -17,9 +17,9 @@ const ContentSection = ({
 	let { width } = usePageSizeCheck();
 	let shouldShow = "";
 
-	// if (width === undefined) {
-	// 	width = 802;
-	// }
+	if (width === undefined) {
+		width = 802;
+	}
 
 
 	if (width && width > breakpoint) {

@@ -29,7 +29,7 @@ const Experience = () => {
 					<div className='md:grid md:grid-cols-5 gap-12'>
 						<div className='relative col-start-1 col-end-3 flex justify-center mb-12 md:mb-0'>
 							<Quotes classes='lg:top-[20%]' />
-							<h6 className='flex flex-col justify-center text-2xl font-bold text-center max-w-[20px] md:max-w-none'>
+							<h6 className='flex flex-col justify-center text-2xl font-bold text-center max-w-[200px] md:max-w-none'>
 								Front-end web developer{" "}
 								<span className='text-accent'>
 									with industry experience
@@ -115,7 +115,7 @@ const Experience = () => {
 				</p>
 			</ContentSection>
 
-			<ContentSection heading='Pre-development' background='bg-primary' index={4}>
+			<ContentSection heading='Pre-dev' background='bg-primary' index={4}>
 				<p>
 					In April 2021, I undertook the self-paced _Nology Software
 					Development bootcamp alongside my full-time job. Throughout,
